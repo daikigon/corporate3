@@ -1,0 +1,31 @@
+header {
+    background-color: whitesmoke;
+    padding: left 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    .logo_menu{
+        display: flex;
+        
+        .logo{
+            
+            img{
+                width: 60px;
+                margin-right: 8px;
+                .resizeimage img { width: 75%; }
+            }
+        }
+     
+        .menu{
+            // padding: 16px;
+            // margin: 16px;
+        }
+        
+    }
+}
+
+
+

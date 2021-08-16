@@ -1,0 +1,22 @@
+header {
+  background-color: whitesmoke;
+  padding: left 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+header .logo_menu {
+  display: flex;
+}
+
+header .logo_menu .logo img {
+  width: 60px;
+  margin-right: 8px;
+}
+
+header .logo_menu .logo img .resizeimage img {
+  width: 75%;
+}
+/*# sourceMappingURL=style.css.map */

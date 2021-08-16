@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,UAAU;EAC5B,OAAO,EAAE,SAAS;EAElB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,GAAG;CAoBtB;;AA3BD,AASI,MATE,CASF,UAAU,CAAA;EACN,OAAO,EAAE,IAAI;CAgBhB;;AA1BL,AAcY,MAdN,CASF,UAAU,CAGN,KAAK,CAED,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;EACX,YAAY,EAAE,GAAG;CAEpB;;AAlBb,AAiBgB,MAjBV,CASF,UAAU,CAGN,KAAK,CAED,GAAG,CAGC,YAAY,CAAC,GAAG,CAAC;EAAE,KAAK,EAAE,GAAG;CAAI",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/_header.scss",
+        "../sass/_main.scss",
+        "../sass/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
