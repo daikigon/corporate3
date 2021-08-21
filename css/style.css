@@ -1,22 +1,36 @@
 header {
   background-color: whitesmoke;
-  padding: left 20px;
+  padding-left: 138px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  height: 80px;
 }
 
 header .logo_menu {
   display: flex;
+  align-items: center;
 }
 
 header .logo_menu .logo img {
-  width: 60px;
+  width: 100px;
   margin-right: 8px;
+  padding: 10px;
 }
 
-header .logo_menu .logo img .resizeimage img {
-  width: 75%;
+header .logo_menu .menu a {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+header .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 100%;
+  padding: 10;
 }
 /*# sourceMappingURL=style.css.map */
