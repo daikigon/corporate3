@@ -1,7 +1,6 @@
 header {
   background-color: whitesmoke;
   padding-left: 138px;
-  margin-left: 138px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,5 +32,40 @@ header .contact {
   width: 200px;
   height: 100%;
   padding: 10;
+}
+
+.news_group {
+  margin: 0px 238px 120px;
+}
+
+.news {
+  font-size: 36px;
+  letter-spacing: 10px;
+  padding: 120px 0px 0px 0px;
+}
+
+.news_title {
+  font-size: 14px;
+  padding: 10px 0px 0px 0px;
+}
+
+.news_border {
+  border-bottom: 1px solid black;
+  width: 40px;
+  padding: 36px 0px 0px 0px;
+}
+
+.news_pickup {
+  display: flex;
+  padding: 50px 0px 16px 0px;
+}
+
+.news_tag {
+  color: white;
+  background-color: black;
+  margin: 0px 0px 0px 10px;
+  width: 50px;
+  font-size: 16px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
