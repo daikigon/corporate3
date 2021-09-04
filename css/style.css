@@ -55,9 +55,11 @@ header .contact {
   padding: 36px 0px 0px 0px;
 }
 
-.news_pickup {
-  display: flex;
-  padding: 50px 0px 16px 0px;
+.news_box {
+  padding: 0px 100px 5px 0px;
+  margin: 100px 20px 0px 0px;
+  width: 500px;
+  border-right: 1px solid black;
 }
 
 .news_tag {
@@ -69,5 +71,14 @@ header .contact {
   line-height: 20px;
   font-size: 0.75rem;
   text-align: center;
+}
+
+.news_list {
+  display: flex;
+}
+
+.news_boxheader {
+  margin: 0px 0px 50px 0px;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
