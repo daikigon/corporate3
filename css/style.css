@@ -1,7 +1,6 @@
 .section_title {
   font-size: 36px;
   letter-spacing: 10px;
-  padding: 120px 0px 0px 0px;
 }
 
 .section_subtitle {
@@ -51,6 +50,10 @@ header .contact {
   width: 200px;
   height: 100%;
   padding: 10;
+}
+
+.mainvisual {
+  margin-bottom: 120px;
 }
 
 .news_wrapper {
@@ -103,10 +106,21 @@ header .contact {
 
 .about_group {
   margin: auto;
-  padding: 16px;
+  padding: 180px 75px 0px;
 }
 
 .about_img {
   width: 55%;
+  height: 400px;
+}
+
+.about_img img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about_text {
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
