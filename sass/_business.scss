@@ -1,0 +1,33 @@
+
+.business_content_group {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.business_content_left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.business_content_right {
+    display: flex;
+    flex-direction: column;
+}
+// .business_content {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .left {
+//     margin-top: 100px;
+// }
+
+.business1 {
+    margin-bottom: 50px;
+}
+
+.business3 {
+    margin-bottom: 50px;
+}
