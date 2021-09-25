@@ -20,3 +20,7 @@ flexbox は横並びにする命令ではない
 flex-direction:row　横
 flex-wrap:nowrap 改行しない
 がデフォルトであたってるから横並びになる
+
+positionプロパティ　左から
+relative,absolute,fixed
+top,width,height　線作る
