@@ -174,4 +174,25 @@ header .contact {
   padding: 16px;
   margin: auto;
 }
+
+.company_wrapper {
+  width: 100%;
+  max-width: 500px;
+  padding: 0 16px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.company_info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company_info dt {
+  width: 20%;
+}
+
+.company_info dd {
+  width: 80%;
+}
 /*# sourceMappingURL=style.css.map */

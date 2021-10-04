@@ -1,0 +1,23 @@
+.company_wrapper {
+    width: 100%;
+    // max-width: 1032px;
+    max-width: 500px;
+    padding: 0 16px;
+    margin: 0 auto;
+
+    background-color: white;
+    // position: static;
+}
+
+
+.company_info {
+    display: flex;
+    // align-items: center;
+    flex-wrap: wrap;
+    dt {
+        width: 20%;
+    }
+    dd {
+        width: 80%;
+    }
+}
