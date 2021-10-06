@@ -176,23 +176,35 @@ header .contact {
 }
 
 .company_wrapper {
+  display: flex;
   width: 100%;
-  max-width: 500px;
+  max-width: 1032px;
   padding: 0 16px;
   margin: 0 auto;
+}
+
+.company_wrapper .company_group {
+  width: 55%;
+  padding: 100px 8% 100px 6%;
+  top: 0;
+  left: 0;
   background-color: white;
 }
 
-.company_info {
+.company_wrapper .company_group .company_info {
   display: flex;
   flex-wrap: wrap;
 }
 
-.company_info dt {
+.company_wrapper .company_group .company_info dt {
   width: 20%;
 }
 
-.company_info dd {
+.company_wrapper .company_group .company_info dd {
   width: 80%;
+}
+
+.company_wrapper .company_img {
+  width: 53%;
 }
 /*# sourceMappingURL=style.css.map */

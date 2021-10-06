@@ -1,23 +1,44 @@
 .company_wrapper {
+    // height: 750px;
+    display: flex;
     width: 100%;
-    // max-width: 1032px;
-    max-width: 500px;
+    max-width: 1032px;
     padding: 0 16px;
     margin: 0 auto;
-
-    background-color: white;
     // position: static;
+
+    .company_group {
+        width: 55%;
+        padding: 100px 8% 100px 6%;
+        // position: absolute;
+        top: 0;
+        left: 0;
+        background-color: white;
+        // padding: 40px 20px;
+        // margin-bottom: 20px;
+        // position: static;
+
+        .company_info {
+            display: flex;
+            // align-items: center;
+            flex-wrap: wrap;
+            dt {
+                width: 20%;
+            }
+            dd {
+                width: 80%;
+            }
+        }
+
+        
+        
+    }
+
+    .company_img {
+        width: 53%;
+        
+    }
+    
 }
 
 
-.company_info {
-    display: flex;
-    // align-items: center;
-    flex-wrap: wrap;
-    dt {
-        width: 20%;
-    }
-    dd {
-        width: 80%;
-    }
-}
