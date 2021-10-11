@@ -1,1 +1,27 @@
-
+.footer_wrapper {
+    width: 100%;
+    max-width: 1032px;
+    padding: 0px 16px;
+    margin: 0px auto;
+    
+    .footer_group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0px;
+        
+        
+        .footer_logo {
+            width: 100px;
+        }
+        
+        .footer_info {
+            font-size: 0.875rem;
+        }
+    }
+    
+    .copyright {
+        font-size: 0.625rem;
+        padding-bottom: 20px;
+    }
+}

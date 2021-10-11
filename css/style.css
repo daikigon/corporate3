@@ -176,11 +176,13 @@ header .contact {
 }
 
 .company_wrapper {
+  height: 750px;
   display: flex;
   width: 100%;
   max-width: 1032px;
   padding: 0 16px;
   margin: 0 auto;
+  position: relative;
 }
 
 .company_wrapper .company_group {
@@ -193,7 +195,9 @@ header .contact {
 
 .company_wrapper .company_group .company_info {
   display: flex;
+  font-size: 0.875rem;
   flex-wrap: wrap;
+  line-height: 36px;
 }
 
 .company_wrapper .company_group .company_info dt {
@@ -206,5 +210,41 @@ header .contact {
 
 .company_wrapper .company_img {
   width: 53%;
+  position: absolute;
+  top: 115px;
+  right: 0;
+}
+
+.company_wrapper .company_img img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.footer_wrapper {
+  width: 100%;
+  max-width: 1032px;
+  padding: 0px 16px;
+  margin: 0px auto;
+}
+
+.footer_wrapper .footer_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.footer_wrapper .footer_group .footer_logo {
+  width: 100px;
+}
+
+.footer_wrapper .footer_group .footer_info {
+  font-size: 0.875rem;
+}
+
+.footer_wrapper .copyright {
+  font-size: 0.625rem;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */

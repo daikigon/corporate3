@@ -24,3 +24,6 @@ flex-wrap:nowrap 改行しない
 positionプロパティ　左から
 relative,absolute,fixed
 top,width,height　線作る
+
+relativeが親、アブソリュートが子供にする
+改行された文章の行間を揃えるのはline-height
