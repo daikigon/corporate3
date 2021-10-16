@@ -4,51 +4,60 @@
     // width: 100%;
     // flex-direction: column;
     // align-items: center;
-}
-
-
-
-.news_group {
-    // width: min-content;
-    // margin: auto;
-    padding: 16px;
-}
-
-
-.news_box {
-    // display: flex;
-    padding: 10px 10px 5px 0px;
-    margin: 0px 20px 0px 0px;
-    width: 300px;
-    border-right: 1px solid black;
-    font-size: 14px;
-}
-
-.news_tag {
-    color: white;
-    background-color: black;
-    // padding: 0px 0px 0px 10px;
-    margin: 0px 0px 0px 10px;
-    width: 50px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 0.75rem;
-    text-align: center;
-}
-
-.news_list {
-    display: flex;
-    // justify-content: space-between;
-}
-
-.news_boxheader {
-    margin: 0px 0px 16px 0px;
-    display: flex
-}
-
-.news_lastbox {
-    padding: 10px 0px 5px 0px;
-    margin: 0px 20px 0px 0px;
-    width: 300px;
-    font-size: 14px;
+    
+    
+    
+    .news_group {
+        // width: min-content;
+        // margin: auto;
+        padding: 16px;
+    }
+    
+    
+    
+    
+    .news_list {
+        display: flex;
+        // justify-content: space-between;
+        @media screen and (max-width:400px){
+            display: block;
+            
+        }
+        
+        .news_boxheader {
+            margin: 0px 0px 16px 0px;
+            display: flex
+        }
+        .news_tag {
+            color: white;
+            background-color: black;
+            // padding: 0px 0px 0px 10px;
+            margin: 0px 0px 0px 10px;
+            width: 50px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 0.75rem;
+            text-align: center;
+        }
+        
+        .news_box {
+            // display: flex;
+            padding: 10px 10px 5px 0px;
+            margin: 0px 20px 0px 0px;
+            width: 300px;
+            border-right: 1px solid black;
+            font-size: 14px;
+        }
+        .news_lastbox {
+            padding: 10px 0px 5px 0px;
+            margin: 0px 20px 0px 0px;
+            width: 300px;
+            font-size: 14px;
+            
+            @media screen and (max-width:400px){
+                background-color: brown;
+                
+            }
+        }
+    }
 }

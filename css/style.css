@@ -25,9 +25,21 @@ header {
   height: 80px;
 }
 
+@media screen and (max-width: 400px) {
+  header {
+    padding-left: 0px;
+  }
+}
+
 header .logo_menu {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+  header .logo_menu {
+    display: block;
+  }
 }
 
 header .logo_menu .logo img {
@@ -41,6 +53,12 @@ header .logo_menu .menu a {
   cursor: pointer;
 }
 
+@media screen and (max-width: 400px) {
+  header .logo_menu .menu a {
+    margin: 10px;
+  }
+}
+
 header .contact {
   display: flex;
   justify-content: center;
@@ -52,6 +70,12 @@ header .contact {
   padding: 10;
 }
 
+@media screen and (max-width: 400px) {
+  header .contact {
+    display: none;
+  }
+}
+
 .mainvisual {
   margin-bottom: 120px;
 }
@@ -61,19 +85,26 @@ header .contact {
   justify-content: center;
 }
 
-.news_group {
+.news_wrapper .news_group {
   padding: 16px;
 }
 
-.news_box {
-  padding: 10px 10px 5px 0px;
-  margin: 0px 20px 0px 0px;
-  width: 300px;
-  border-right: 1px solid black;
-  font-size: 14px;
+.news_wrapper .news_list {
+  display: flex;
 }
 
-.news_tag {
+@media screen and (max-width: 400px) {
+  .news_wrapper .news_list {
+    display: block;
+  }
+}
+
+.news_wrapper .news_list .news_boxheader {
+  margin: 0px 0px 16px 0px;
+  display: flex;
+}
+
+.news_wrapper .news_list .news_tag {
   color: white;
   background-color: black;
   margin: 0px 0px 0px 10px;
@@ -84,20 +115,25 @@ header .contact {
   text-align: center;
 }
 
-.news_list {
-  display: flex;
+.news_wrapper .news_list .news_box {
+  padding: 10px 10px 5px 0px;
+  margin: 0px 20px 0px 0px;
+  width: 300px;
+  border-right: 1px solid black;
+  font-size: 14px;
 }
 
-.news_boxheader {
-  margin: 0px 0px 16px 0px;
-  display: flex;
-}
-
-.news_lastbox {
+.news_wrapper .news_list .news_lastbox {
   padding: 10px 0px 5px 0px;
   margin: 0px 20px 0px 0px;
   width: 300px;
   font-size: 14px;
+}
+
+@media screen and (max-width: 400px) {
+  .news_wrapper .news_list .news_lastbox {
+    background-color: brown;
+  }
 }
 
 .about_wrapper {

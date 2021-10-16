@@ -27,3 +27,6 @@ top,width,height　線作る
 
 relativeが親、アブソリュートが子供にする
 改行された文章の行間を揃えるのはline-height
+
+command shift g
+github pages
